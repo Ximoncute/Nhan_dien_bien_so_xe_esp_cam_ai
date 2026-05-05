@@ -49,14 +49,7 @@ pip install torch torchvision matplotlib
 
 ## 🚀 Cài đặt & chạy
 
-### 1. Clone project
-
-```bash
-git clone https://github.com/your-username/emnist-uppercase.git
-cd emnist-uppercase
-```
-
-### 2. (Khuyến khích) Tạo môi trường ảo
+### 1. (Khuyến khích) Tạo môi trường ảo
 
 ```bash
 python -m venv venv
@@ -78,17 +71,15 @@ source venv/bin/activate
 
 ---
 
-### 3. Cài thư viện
+### 2. Cài thư viện
 
 ```bash
-pip install -r requirements.txt
+pip install torch torchvision matplotlib
 ```
-
-*(hoặc cài tay nếu chưa có file requirements)*
 
 ---
 
-### 4. Chạy chương trình
+### 3. Chạy chương trình
 
 ```bash
 python main.py
@@ -191,7 +182,61 @@ MIT License
 
 ## ✨ Tác giả
 
-* Your Name
+* Nguyễn Thị Ngọc Anh - B23DCAT
+---
+
+## 🧠 Ứng dụng
+
+* Huấn luyện CNN nhận dạng ký tự
+* Triển khai TinyML trên ESP32
+* Tích hợp vào hệ thống IoT (camera nhận diện chữ)
+* Sử dụng trong Edge Impulse
+
+---
+
+## 🔥 Nâng cấp đề xuất
+
+* Augmentation:
+
+  * Rotate
+  * Noise
+  * Blur
+
+* Resize ảnh:
+
+  * 28x28 → 96x96 (phù hợp embedded)
+
+* Kết hợp dữ liệu thực tế (ảnh tự chụp)
+
+---
+
+## 📌 Hướng phát triển
+
+* Train model CNN nhận dạng A–Z
+* Convert sang TensorFlow Lite
+* Deploy trên ESP32 / STM32
+* Xây dựng web dashboard hiển thị kết quả
+
+---
+
+## 👨‍💻 Công nghệ sử dụng
+
+* Python
+* PyTorch
+* Torchvision
+* EMNIST Dataset
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## ✨ Tác giả
+
+* Ximoncute - Hiếu Ka Ka
 
 ---
 
