@@ -1,0 +1,6 @@
+venv/
+data/
+dataset_letters/
+dataset_uppercase/
+__pycache__/
+*.pyc
